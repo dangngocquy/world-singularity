@@ -1,3 +1,3 @@
-# Mạng xã hội huấn luyện AI Web-App
+# Huấn Luyện AI WEB-APP
 
-1. asdasd
+1.asdasd
