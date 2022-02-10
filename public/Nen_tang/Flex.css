@@ -1,0 +1,72 @@
+
+.chiathanxx{
+ text-align: center;
+ font-style: initial;
+  color: rgb(146, 171, 207);
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 14px;
+  z-index: 2;
+
+}
+
+.chiaappx{
+  display: flex;
+  position: absolute;
+}
+
+.chiahta{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  grid-gap: 22.2px;
+  text-align: left;
+}
+.chiahtb{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  align-items: center;
+}
+.flmn{
+
+}
+.chiahanhtinhtam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chiaheadermain{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  grid-gap: 9px;
+  padding-left: 160px;
+}
+/*Mobile with < 740px*/
+@media only screen and (max-width: 46.1875em){
+  .chiaheadera{
+    display: block;
+  }
+  .x{
+    display: none;
+  }
+}
+/*tablet with >= 740px and width < 1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+  .x{
+    display: none;
+  }
+}
+/*PC with >= 1024px*/
+@media only screen and (min-width: 64em){
+
+.chiawait{
+  display: flex;
+  align-items: center;
+  grid-gap: 50px;
+  
+}
+}

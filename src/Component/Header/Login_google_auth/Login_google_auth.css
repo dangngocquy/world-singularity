@@ -1,0 +1,496 @@
+.menu-containerl {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-triggerl {
+  background: #ffffff;
+  border-radius: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  vertical-align: middle;
+  transition: box-shadow 0.4s ease;
+  margin-left: auto; /* Strictly for positioning */
+}
+
+.menu-triggerl:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+.chu_profile{
+  text-transform: uppercase;
+}
+.menu-triggerl span {
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.loginStatus_button{
+  padding-right: 16px;
+}
+.menu-triggerl img {
+  border-radius: 90px;
+}
+
+.menul {
+  position: absolute;
+  top: 53px;
+  width: 300px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  z-index: 20;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 15%);
+}
+
+.menul.activel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menul ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menul li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menul li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 15px 20px;
+  display: block;
+}
+.thucteao_lg{
+  color: rgb(146, 171, 207);
+  background: transparent;
+  border: none;
+  padding: 6px;
+  box-shadow: rgb(0 0 0 / 27%) 0px 2px 3px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  justify-content: center;
+  grid-gap: 6px;
+}
+.chiak{
+  color: rgb(146, 171, 207);
+  background: transparent;
+  border: none;
+  padding: 6px;
+  box-shadow: rgb(0 0 0 / 27%) 0px 2px 3px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+/*option language*/
+.trinh_tha_xuong {
+  width: auto;
+  position: relative;
+  cursor: pointer;
+}
+.trinh_tha_xuong.tt_language > input {
+  display: none;
+}
+.trinh_tha_xuong > a, .trinh_tha_xuong.tt_language > label {
+  border-radius: 2px;
+  box-shadow: 0 6px 5px -5px rgba(0,0,0,0.3);
+}
+.trinh_tha_xuong ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 6px 5px -5px rgba(0,0,0,0.3);
+  overflow: hidden;
+  text-align: left;
+}
+.login_profile{
+  float: right;
+}
+.btnui{
+  white-space: nowrap;
+  font-size: 11px;
+}
+.anh_img{
+  width: 24px;
+  height: 20px;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.trinh_tha_xuong a, .trinh_tha_xuong.tt_language > label {
+  display: block;
+  padding:0.5em 1em;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(15, 23, 36);
+  background-color: rgb(146, 171, 207);
+}
+.trinh_tha_xuong li {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.9s 0s ease;
+}
+.trinh_tha_xuong:hover li {
+  transition: all 0.9s 0s ease;
+}
+.trinh_tha_xuong li:first-child a {
+  border-radius: 2px 2px 0 0;
+}
+.trinh_tha_xuong li:last-child a {
+  border-radius: 0 0 2px 2px;
+}
+.trinh_tha_xuong a:hover , .trinh_tha_xuong.tt_language > input:checked {
+  background-color: rgb(15, 23, 36);
+  color: rgb(146, 171, 207);
+  transition: all 0.9s 0s ease;
+}
+
+.trinh_tha_xuong.hover:hover li, .trinh_tha_xuong.tt_language > input:checked ~ ul li {          
+  height: auto;
+  transition: all 0.9s 0s ease;
+}
+/*phần 2 header*/
+.gyusi{
+  display: flex;
+  align-items: center;
+  display: -webkit-inline-box;
+}
+.neu {
+  /*background-image: url("../../../Image/Background/univ.jpg");*/
+  position: relative;
+  color: rgb(146, 171, 207);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kjiuyh{
+  width: 100%;
+  display: block;
+  font-weight: 500;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.be_noi{
+  width: 100%;
+}
+.kjiuyhs{
+  display: flex;
+}
+.tyr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: -webkit-inline-box;
+}
+.cany{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin: 0;
+}
+.maua{
+  color: rgb(17, 236, 229);
+  font-weight: 900;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.kjiuyh.neu .headerer {
+  font-size: 2em;
+  font-family: Aria,sans-serif;
+}
+.chia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kjiuyh.neu .nhuygdhs.ungdungmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Login_google_auth_mobile{
+  padding-right: 16px;
+}
+.text_h{
+  color: rgb(146, 171, 207);
+  background: transparent;
+  border: none;
+  padding: 6px;
+  border-radius: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  grid-gap: 6px;
+  border: 1px solid rgb(146, 171, 207);
+  transition: 0.6s all;
+}
+.text_h:hover{
+  color: rgb(17, 236, 229);
+  background: rgb(15, 23, 36);
+  border: 1px solid rgb(17, 236, 229);
+}
+
+.kjiuyh.neu .nhuygdhs.ungdungmenu ul li {
+  display: inherit;
+  padding: 10px;
+  box-shadow: rgb(0 0 0 / 27%) 0px 2px 3px 2px;
+  border-radius: 5px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+  border: 1px solid rgb(17, 236, 229);
+  font-size: 13px;
+  border-radius: 50px;
+  justify-content: center;
+}
+.thugonpr{
+  width: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: rgb(146, 171, 207);
+}
+.naruto{
+  display: flex;
+  padding: 0;
+  grid-gap: 1.3em;
+  align-items: center;
+}
+.naruto_pr{
+  display: flex;
+  height: 30px;
+  padding: 0;
+}
+.chiaptr{
+  gap: 8px;
+  display: flex;
+}
+.chiaipr{
+  display: flex;
+  align-items: center;
+  color: rgb(146, 171, 207);
+}
+.chiaptr{
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  -o-object-position: center center;
+     object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header_chia{
+    display: flex;
+    grid-gap: 1.6em;
+    align-items: center;
+  }
+@keyframes vibratse
+{
+  0%   {transform: rotate(10deg)}
+  25%  {transform: rotate(-10deg)}
+  50%  {transform: rotate(0)}
+  75%  {transform: rotate(10deg)}
+  100% {transform: rotate(0)}
+}
+.gy { 
+    line-height: 1.3;
+}
+.sasuke{
+  display: flex;
+  align-items: center;
+  grid-gap: 0.8em;
+}
+.botronpr{
+  width: 26px;
+  border-radius: 50%;
+  -o-object-position: center center;
+     object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 26px;
+}
+.botronpractive{
+  width: 26px;
+  border-radius: 50%;
+  -o-object-position: center center;
+     object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 26px;
+}
+/*menu profile*/
+
+.containeru {
+  position: relative;
+  border-radius: 8px;
+}
+.lsdvfsg{
+  font-size: 13px;
+}
+.btnu {
+  cursor: pointer;
+  color: rgb(146, 171, 207);
+  background: rgb(146, 171, 207,.1);
+  backdrop-filter: blur(21px);
+  border: none;
+  padding: 0.3em 0.9em 0.3em 0.3em;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  grid-gap: 6px;
+  justify-content: center;
+  transition: 0.3s;
+  font-size: 15px;
+  border: 2px solid transparent;
+  font-family: Montserrat, sans-serif;
+}
+.btnu:hover{
+  color: rgb(17, 236, 229);
+  border: 2px solid rgb(17, 236, 229);
+  background: rgb(146, 171, 207,.1);
+}
+.btnuactive{
+  color: rgb(17, 236, 229);
+  cursor: pointer;
+  background: rgb(146, 171, 207,.1);
+  backdrop-filter: blur(21px);
+  border: none;
+  padding: 0.3em 0.9em 0.3em 0.3em;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  grid-gap: 6px;
+  justify-content: center;
+  transition: 0.3s;
+  font-size: 15px;
+  border: 2px solid rgb(17, 236, 229);
+  font-family: Montserrat, sans-serif;
+}
+/*.btnu:focus .udrpd, .btnu:active .udrpd {
+  transform: translate(0, 20px);
+  opacity: 1;
+  visibility: visible;
+}*/
+.btnu .material-icons {
+  border-radius: 100%;
+  -webkit-animation: ripples 0.6s linear infinite;
+          animation: ripples 0.6s linear infinite;
+}
+
+.btnu .udrpd {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150%;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-color: rgb(15, 23, 36);
+  z-index: 99;
+}
+.btnu .udrpd:before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  box-shadow: 2px -2px 6px rgba(0, 0, 0, 0.05);
+  border-top: 6px solid rgb(15, 23, 36);
+  border-right: 6px solid rgb(15, 23, 36);
+  cursor: pointer;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+  transform: rotate(-45deg);
+  mix-blend-mode: multiple;
+}
+
+.btnu .udrpd li:first-child {
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+.btnu .udrpd li:last-child {
+  border-radius: 0 0 4px 4px;
+  cursor: pointer;
+}
+.btnu .udrpd li:last-child a {
+  border-bottom: 0;
+}
+.btnu .udrpd a {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px 0;
+  color: rgb(146, 171, 207);
+  font-size: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes ripples {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes ripples {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+/*PC with >= 1024px*/
+@media only screen and (min-width: 64em){
+  .kjiuyh.neu{
+    grid-gap: 1em;
+  }
+  .kjiuyh.neu{
+    padding: 6px 6rem;
+    position: relative;
+  }
+  .mb6{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 650px){
+  .loginStatus_button{
+    display: none;
+  }
+}

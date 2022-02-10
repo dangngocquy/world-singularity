@@ -1,0 +1,57 @@
+.Header_img_LOgin{
+	width: 36px;
+	height: 36px;
+	object-fit: cover;
+	display: none;
+}
+.Header_img_LOgin_alll_from{
+	display: flex;
+	flex-direction: row;
+	grid-gap: 15px;
+	align-items: center;
+}
+.Header_img_LOgin_alll_from span{
+	color: #fff;
+	font-size: 13px;
+}
+.Header_img_LOgin_alll_from button{
+	border: 2px solid rgb(228, 230, 235);
+	padding: 5px 15px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 6px;
+	font-weight: bold;
+}
+.Header_img_LOgin_alll{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	padding: 10px 4rem;
+}
+@media screen and (max-width: 860px){
+	.Headersp{
+		display: none;
+	}
+	.Header_img_LOgin_alll{
+		padding: 10px 2rem !important;
+		justify-content: space-between;
+	}
+	.Header_img_LOgin{
+		display: block;
+	}
+	.Header_img_LOgin_alll_from span{
+		font-size: 11px;
+	}
+	.Header_img_LOgin_alll_from button{
+		padding: 4px 10px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.Header_img_LOgin_alll{
+		padding: 10px 4rem;
+		justify-content: space-between;
+	}
+}

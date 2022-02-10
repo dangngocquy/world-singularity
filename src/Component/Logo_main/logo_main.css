@@ -1,0 +1,89 @@
+@keyframes animation-text {
+    0% {opacity:0;}
+    40% {opacity:0;}
+    100% { opacity:1;}
+}
+@keyframes animation-left {
+    from {left: 60px;}
+    to { left: 0px;}
+}
+@keyframes animation-right {
+    from {right: 60px;}
+    to { right: 0px;}
+}
+
+.logo{
+    display:inline-block; 
+    position:relative; 
+    cursor:pointer;
+    top: 0;
+    font-family:"Montserrat", sans-serif;
+}
+.font-weight{
+    font-weight: bold;
+}
+.abcdef{
+    background: linear-gradient(65deg,#11ece5 30%, orange 114%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*.text-test{
+  background: transparent;
+  border: 3px solid rgb(17, 236, 229);
+  border-radius: 12px;
+  padding: 10px;
+}*/
+
+.ctlogo{
+    font-size: 12px;
+}
+.logo .text{
+    overflow: hidden;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    animation-name: animation-text;
+    /*animation-duration: 0.5s;*/
+    white-space: nowrap;
+}
+  
+.sidenho{
+    font-size: 1px;
+}
+.chialogo{
+    display: flex;
+}
+
+.left{
+    position: relative;
+    font-size: 45px;
+    animation-name: animation-left;
+    animation-duration: 2s;
+    font-weight:bold;
+    height: 100%;
+    top: -6px;
+}
+.right{
+    position: relative;
+    font-size: 45px;
+    animation-name: animation-right;
+    animation-duration: 2s;
+    font-weight:bold;
+    height: 100%;
+    top: -6px;
+    left: 10px;
+}
+.ghv{
+    display: flex;
+    align-items: center;
+    grid-gap: 50px;
+}
+.logo_flex{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+.text{
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+import React from 'react';
+export { default as Header } from './Connected_page/Header/Header';
+export { default as Head } from './Connected_page/Header/Head';
+export { default as Footers } from './Connected_page/Footers/Footers';
+export { default as Body } from './Connected_page/Body/Body';
+export { default as Networkconnection } from './Network_connection/Networkconnection';
+export { default as Tooltip } from './Tooltip/Tooltip';
+export { default as Logo_main } from './Logo_main/Logo_main';
+export { default as Loadingpage } from './Loading_page/Loadingpage';
+export { default as Image_animation } from './Image_animation/Image_animation';
+export { default as Back_to_top } from './Back_to_top/Back_to_top';

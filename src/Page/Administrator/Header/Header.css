@@ -1,0 +1,165 @@
+.Header_admin_img{
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.Header_admin_img_Background{
+  background: #fff;
+  padding: 0.6rem 2rem;
+  display: flex;
+  box-shadow: inset 0px -1px 0px rgb(228, 230, 235);
+  grid-gap: 15px;
+  width: 100%;
+  justify-content: space-between;
+}
+.Header_admin_img_Background_icon{
+  cursor: pointer;
+  color: rgb(15, 23, 36);
+  font-size: 40px;
+  padding: 10px;
+  background: rgb(243, 243, 244);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.Header_admin_img_Backgroundsnkanaks{
+  width: 35px;
+  object-fit: cover;
+  height: 35px;
+}
+.Header_admin_img_Background_fl_icon_skjmsn{
+  display: none;
+}
+.Header_admin_img_Background_fl_icon_sijska{
+  color: rgb(15, 23, 36);
+}
+.Header_admin_img_Background_icon:hover{
+  background: rgb(228, 230, 235);
+}
+.Header_img{
+  width: 100%;
+  height: 100%;
+  max-width: 36px;
+  max-height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Header_admin_img_Background_fl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.Header_admin_img_Background_fl_icon{
+  font-size: 38px;
+  color: rgb(84, 110, 122);
+  cursor: pointer;
+  background: rgb(243, 243, 244);
+  padding: 9px;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+.Header_admin_img_Background_fl_icon:hover{
+  background: rgb(228, 230, 235);
+}
+.Mobile_extra_header_menu_user{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    right: 2rem;
+    top: 3.8rem;
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    white-space: nowrap;
+    font-size: 12px;
+    height: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fff;
+    backdrop-filter: blur(21px);
+    border: 0.1px solid rgb(84, 110, 122);
+    text-transform: capitalize;
+    border-radius: 8px;
+    z-index: 9;
+}
+.animation_extra_user{
+   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   -moz-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.Header_img_p{
+  margin: 0;
+  color: rgb(84, 110, 122);
+  background: rgb(243, 243, 244);
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.Header_img_p_p_menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Header_img_p1{
+  margin: 0;
+  color: rgb(84, 110, 122);
+  background: rgb(243, 243, 244);
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+.Header_img_p_p{
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  grid-gap: 6px;
+  margin: 0;
+  color: rgb(84, 110, 122);
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 13px;
+  border-radius: 6px;
+}
+.Header_img_p_p:hover{
+  background: rgb(228, 230, 235);
+}
+.Header_img_p_p_p{
+  display: flex;
+  font-weight: normal;
+  align-items: center;
+  grid-gap: 6px;
+  margin: 0;
+  color: rgb(84, 110, 122);
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top: 1px solid rgb(84, 110, 122);
+  font-size: 13px;
+}
+.Header_img_p_p_p:hover{
+  background: rgb(228, 230, 235);
+}
+.Header_admin_img_Background_flex_okadsk{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 10px;
+}
+.Header_admin_img_Background_gach{
+  width: 1px;
+  height: 70%;
+  background: rgb(15, 23, 36);
+  opacity: 0.9;
+}
+.Header_admin_img_Background_flex_okadsk p{
+  font-size: 11px;
+  opacity: 0.9;
+}

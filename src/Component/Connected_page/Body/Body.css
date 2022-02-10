@@ -1,0 +1,99 @@
+.wide {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.widea {
+  width: 100%;
+  margin: auto;
+  height: 150%;
+}
+/*#Section_home{
+    backdrop-filter: blur(3px);
+}
+#Section_introduce{
+    backdrop-filter: blur(12px);
+}
+#Section_review{
+    backdrop-filter: blur(12px);
+}
+#Section_experience{
+    backdrop-filter: blur(12px);
+}
+.Section_join_padding{
+    backdrop-filter: blur(12px);
+}
+#Section_post{
+    backdrop-filter: blur(12px);
+}
+#Section_feature{
+    backdrop-filter: blur(12px);
+}
+#Section_total{
+    backdrop-filter: blur(12px);
+}
+#Section_planet{
+    backdrop-filter: blur(12px);
+}
+.Section_description_padding{
+  background-color: rgba(0,146,171,207,.1);
+    backdrop-filter: blur(12px);
+}
+.nksdfksdbf{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(21px);
+    border-top: 2px solid rgb(146, 171, 207,0.3);
+    border-bottom: 2px solid rgb(146, 171, 207,0.3);
+}*/
+
+#Page_home {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 99;
+  padding: 100px 240px 32px;
+  transition: all 0.5s 0s linear;
+}
+#Page_all {
+  width: 100%;
+  height: auto;
+  background-image: -webkit-radial-gradient(top center, ellipse cover, rgb(4, 12, 24, 0.3) 0%, rgb(4, 12, 24, 0.3) 100%), url("../../../Image/Background/visao.jpg");
+  /*background: rgb(0, 0, 0,1);*/
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.5s 0s linear;
+}
+
+#Page_news {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s 0s linear;
+  padding: 100px 240px 32px;
+}
+#Page_experience{
+  width: 100%;
+  height: auto;
+  transition: all 0.5s 0s linear;
+}
+#Page_advertise {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s 0s linear;
+}
+#Page_intro {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s 0s linear;
+}
+#nam_five {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s 0s linear;
+}

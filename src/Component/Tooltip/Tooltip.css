@@ -1,0 +1,13 @@
+.mau_nen_tt{
+	color: rgb(146, 171, 207);
+}
+.test_tt{
+	box-shadow: 0 4px 6px rgb(0 0 0 / 15%) !important;
+	border-radius: 6px !important;
+	backdrop-filter: blur(20px) !important;
+	background: rgb(37, 54, 78, 0.8) !important;
+}
+.yesaa_Aa{
+	border: 3px solid rgb(37, 54, 78) !important;
+	padding: 0 !important;
+}

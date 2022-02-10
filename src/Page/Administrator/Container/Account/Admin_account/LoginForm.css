@@ -1,0 +1,142 @@
+.LoginForm_lgh1{
+	margin: 0;
+	color: rgb(146, 171, 207);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+}
+.LoginForm_bground {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.from_loginfrom{
+	background: rgb(15, 23, 36, 0.8);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgb(146, 171, 207, 0.4);
+	border-radius: 10px;
+	padding: 2rem;
+	width: 100%;
+	max-width: 460px;
+	box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+}
+.LoginForm_lgh12{
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.LoginForm_lgh12_color_i{
+	text-align: left;
+	color: red;
+}
+.LoginForm_bground_kosp{
+	display: flex;
+	flex-direction: column;
+}
+.LoginForm_bground_kosp input{
+	margin-bottom: 1.5rem;
+	border: 1px solid rgb(255, 255, 255, 0.6);
+	background: transparent;
+	width: 100%;
+	height: 36px;
+	color: #fff;
+	border-radius: 6px;
+	padding-left: 12px;
+	transition: all 0.3s;
+}
+.LoginForm_bground_kosp input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#fff;
+  opacity: 1; /* Firefox */
+}
+
+.LoginForm_bground_kosp input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.LoginForm_bground_kosp input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.LoginForm_bground_kosp input:focus{
+	 box-shadow: 0 0 5pt 2pt rgb(255, 255, 255, 0.3);
+    outline: none;
+}
+.LoginForm_bground_kosp b{
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: #fff;
+	font-size: 13px;
+}
+.LoginForm_btn{
+	background: rgb(17, 236, 229);
+	width: 100%;
+	border: none;
+	height: 32px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 13px;
+}
+.LoginForm_btn_mainp b{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 13px;
+}
+.LoginForm_btn_mainp{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 0.6rem;
+}
+.LoginForm_btn_mainp i{
+	color: rgb(146, 171, 207);
+	margin-right: 6px;
+}
+.LoginForm_btn_show_hide{
+	position: absolute;
+	font-size: 23px;
+	border: none;
+	background: transparent;
+	color: #fff;
+	transition: all 0.3s;
+	cursor: pointer;
+	transform: translate(-40px, 6px);
+}
+.LoginForm_btn_show_hide:hover{
+	color: rgb(17, 236, 229);
+}

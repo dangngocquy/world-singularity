@@ -1,0 +1,971 @@
+.AdminAccount_css{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.AdminAccount_css_fl{
+  display: grid;
+  grid-template-areas: 'ADSEARCH ADLIST'
+                       'ADCHART ADADD';
+  grid-gap: 1.5em;
+}
+.AD1{
+  grid-area: ADSEARCH;
+}
+.AD2{
+  grid-area: ADCHART;
+}
+.AD3{
+  grid-area: ADLIST;
+}
+.AD4{
+  grid-area: ADADD;
+}
+.AdminAccount_css_h1{
+  font-size: 21px;
+  margin: 0;
+}
+.AdminAccount_css_sk{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5px;
+  justify-content: space-between;
+}
+.AddModal_span_flex_famale{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 2rem;
+  width: 100%;
+}
+.Search_sellect{
+  background: transparent;
+  border: none;
+  transition: all 0.3s;
+  padding: 5px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Search_sellect:focus{
+  border: none;
+  outline: none;
+}
+.Search_sellect:active{
+  background: rgb(228, 230, 235);
+}
+.AdminAccount_css_sk u{
+  font-weight: bold;
+  font-size: 13px;
+}
+.AdminAccount_css_fl_ax{
+  display: flex;
+  flex-direction: column;
+}
+.AdminAccountSreacrh{
+  display: flex;
+  flex-direction: column;
+  color: rgb(15, 23, 36);
+  margin-bottom: 0.6rem;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid rgb(228, 230, 235);
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.AdminAccountSreacrh:hover{
+  background: rgb(15, 23, 36);
+  color: #fff;
+}
+.AdminAccount_css_sk_all_flex{
+  margin-top: 1rem;
+  width: 100%;
+  width: 100%;
+}
+.AdminAccount_css_sk_all_flexdds_scrolling{
+  overflow-x: hidden;
+  height: 100%;
+  max-height: 33vh;
+  padding: 0 5px;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout::-webkit-scrollbar {
+    width: 4px;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgb(17, 236, 229);
+    padding: 0 2px;
+    cursor: pointer;
+}
+.AdminAccount_css_sk_all_flexdds_scrolling::-webkit-scrollbar {
+    width: 0;
+}
+.AdminAccount_css_sk_all_flexdds_scrolling::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.AdminAccount_css_sk_all_flexdds_scrolling::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: transparent;
+    padding: 0 2px;
+    cursor: pointer;
+}
+.AdminAccountSreacrh_icon{
+  background: rgba(255, 228, 238, 1);
+  color: rgb(15, 23, 36);
+  font-size: 40px;
+  border-radius: 6px;
+  padding: 8px;
+}
+.AdminAccountSreacrh_icon_op{
+  display: none;
+}
+.AdminAccountSreacrhpos2Flexbi b{
+  font-size: 11px;
+}
+.AdminAccountSreacrhpos2Flexbi p{
+  font-size: 10px;
+}
+.AdminAccountSreacrhpos2Flexbi p{
+  margin-bottom: 0;
+  margin-top: 2px;
+  text-align: left;
+}
+.AdminAccountSreacrhpos2Flexbi{
+  margin-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+.AdminAccountSreacrh img{
+  width: 32px;
+  height: 32px;
+}
+.AdminAccountSreacrhpos2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AdminAccount_css_h1_beta{
+  font-size: 13px;
+}
+.AdminAccount_css_fl_column{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 53vh;
+  margin-right: 2rem;
+}
+.AdminAccount_css_char{
+  background: rgb(243, 243, 244);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+.Char_admin{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.Char-fontsize{
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+}
+.AdminAccount_css_char_b{
+  text-align: left;
+  font-size: 13px;
+}
+.AdminAccount_css_char_char_padd{
+  display: flex;
+  flex-direction: column;
+}
+.AdminAccount_css_char_char_padd_span{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.AdminAccount_css_char1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.AdminAccount_css3{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 14px;
+  margin-bottom: 6px;
+}
+.AdminAccount_css3 i{
+  font-size: 8px;
+}
+.AdminAccount_css3 b{
+  font-size: 10px;
+}
+.AdminAccount_css_char_char_padd_spanss{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  grid-gap: 3px;
+}
+.AdminAccount_css3color1{
+  background: rgb(65, 184, 131);
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+}
+.AdminAccount_css3color2{
+  background: rgb(228, 102, 81);
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+}
+.AdminAccount_css3color3{
+  background: rgb(0, 216, 255);
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+}
+.AdminAccount_css_sk_all_flexdds{
+  display: flex;
+  flex-direction: column;
+}
+.Char-fontsizes{
+  display: none;
+}
+.AdminAccount_css_char_char_padd_spansscsk{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.AdminAccount_css_sk_all_flexddspast2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.AdminAccount_css_char_char_padd_spanss_input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(243, 243, 244);
+  padding: 6px 20px;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+}
+.AdminAccount_css_sk_all_flexdds_SEARCG{
+  font-size: 20px;
+}
+.AdminAccount_css_char_char_padd_spanss_input input{
+  border: none;
+  width: 100%;
+  height: 25px;
+  padding-left: 15px;
+  color: rgb(15, 23, 36);
+  background: rgb(243, 243, 244);
+}
+.AdminAccount_css_char_char_padd_spanss_input input:focus{
+  outline: none;
+}
+.AdminAccount_css_char_char_padd_spanss_input input::placeholder {
+  color: rgb(15, 23, 36);
+  opacity: 1; /* Firefox */
+}
+
+.AdminAccount_css_char_char_padd_spanss_input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: rgb(15, 23, 36);
+}
+
+.AdminAccount_css_char_char_padd_spanss_input input::-ms-input-placeholder { /* Microsoft Edge */
+ color: rgb(15, 23, 36);
+}
+.AdminList_table, .AdminList_table2 {
+  /*border: 1px solid rgb(228, 230, 235);*/
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.AdminList_table td, .AdminList_table th {
+  border: 1px solid rgb(228, 230, 235);
+  padding: 8px;
+  font-size: 11px;
+  font-weight: normal;
+  transition: all 0.3s;
+  border-radius: 3px;
+}
+.AdminList_table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.AdminList_table tr:hover {
+  transition: all 0.3s;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.AdminList_table tr:active {
+  transition: all 0.3s;
+  border: 1px solid rgb(15, 23, 36);
+}
+
+.AdminList_table th {
+  text-align: left;
+  transition: all 0.3s;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.AdminList_table_tr_th th{
+  background: #fff;
+  border: none;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border: 1px solid rgb(228, 230, 235);
+  padding-top: 8px;
+}
+.AdminAccount_css_sk_all_flexdds_list{
+  font-size: 13px;
+  margin: 0;
+}
+.AdminAccount_css_sk_all_flexddspagination_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.AdminAccount_css_char_char_padd_spanss_icons{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+  cursor: pointer;
+}
+.AdminAccount_css_char_char_padd_spanss_iconss{
+  font-size: 30px;
+  cursor: pointer;
+  background: rgb(243, 243, 244);
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  color: rgb(84, 110, 122);
+}
+.AdminAccount_css_char_char_padd_spanss_iconss:hover{
+  background: rgb(228, 230, 235);
+}
+.AdminAccountSreacrh_soFL{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: 16px;
+  align-items: center;
+}
+.AdminAccountSreacrh_soFL b{
+  font-size: 11px;
+}
+.AdminList_table2_img{
+  width: 28px;
+  object-fit: cover;
+}
+.AdminList_table2_fl3_icongo{
+  color: green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 3px;
+}
+.AdminList_table2_fl3_flex_img{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 6px;
+  align-items: center;
+}
+.AdminList_table2_fl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none!important;
+  grid-gap: 10px;
+}
+.AdminList_table2_fl3{
+  color: rgb(15, 23, 36);
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.AdminList_table2_fl3:hover{
+  color: rgb(17, 236, 229);
+}
+.Pagination_fl{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 6px;
+  margin-top: 0.6rem;
+  justify-content: flex-end;
+}
+.Pagination_fl button{
+  border: none;
+  background: rgb(243, 243, 244);
+  color: rgb(84, 110, 122);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 1px solid rgb(228, 230, 235);
+  transition: all 0.3s;
+}
+.Pagination_fl button:hover{
+  background: rgb(228, 230, 235);
+  border: transparent;
+}
+.Pagination_fl button:focus{
+  background: rgb(228, 230, 235);
+  border: transparent;
+}
+.AdminAccount_css_char_char_padd_spanss_iconss_tuycon{
+  text-align: left;
+  font-size: 13px;
+  margin-top: 0;
+}
+.AdminAccount_css_sk_all_flexdds_brandfle{
+  border: 1px solid rgb(15, 23, 36);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AdminAccount_css_sk_all_flexdds_brandfleInsocn{
+  font-size: 48px;
+  padding: 10px;
+  background: rgb(15, 23, 36);
+  border-radius: 6px;
+  color: #fff;
+  margin-right: 15px;
+}
+.AdminAccount_css_char_char_padd_spanss_pso{
+  display: flex;
+  flex-direction: column;
+}
+.AdminAccount_css_char_char_padd_spanss_pso i{
+  font-size: 11px;
+  text-align: left;
+}
+.AdminAccount_css_char_char_padd_spanss_pso b{
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.AdminAccount_css_sk_all_flexdds_icon2{
+  font-size: 32px;
+  background: rgb(243, 243, 244);
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  color: rgb(15, 23, 36);
+}
+.AdminAccount_css_sk_all_flexdds_icon2:hover{
+  background: rgb(228, 230, 235);
+}
+.AdminAccount_css_sk_all_flexdds_osias{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+.AdminAccount_css_char_char_padd_spanss_pskmsajk{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AdminAccount_css_sk_all_flexdds_brandfle_fl_all_acount{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 9px;
+}
+
+
+.Modals-overlay_function_Account {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.Modals-wrapper_function_Account {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.Modals_function_Account {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 5rem auto;
+  border-radius: 8px;
+  max-width: 800px;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.Modals-header_function_Account {
+  display: flex;
+  background: rgb(15, 23, 36);
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  justify-content: space-between;
+}
+.Modals-header_function_Account2 h2{
+  margin: 0;
+  color:  rgb(146, 171, 207);
+}
+.Modals-header_function_Account2 i{
+  margin: 0;
+  color:  rgb(146, 171, 207);
+}
+.AddModal_span{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 6px;
+  padding-bottom: 1rem;
+}
+.AddModal_span b{
+  font-size: 16px;
+}
+.Header_input_ADD_modal{
+  width: 100%;
+  height: 32px;
+  border-radius: 6px;
+  padding-left: 10px;
+  border: 1px solid rgb(228, 230, 235);
+}
+.Header_input_ADD_modal:focus{
+  border: 1px solid rgb(228, 230, 235);
+  outline: none;
+}
+.Modals-close-button_function_Account {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(146, 171, 207);
+  opacity:0.6;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+/*  border-radius: 50%;
+  background: rgb(255, 87, 34);*/
+  transition: all 0.3s;
+}
+.Modals-close-button_function_Account:hover{
+  color: rgb(17, 236, 229);
+}
+
+.button-default_function_Account {
+  background: #247BA0;
+  color: #fff;
+}
+.Function_p_Account{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+.Modals_function_Account h1{
+  text-align: center;
+  margin: 0;
+  color: rgb(84, 110, 122);
+}
+.Modals_function_Account p{
+  font-size: 16px;
+  text-align: left;
+}
+.Function_p_link_Account{
+  font-size: 16px;
+  background: rgb(243, 243, 244);
+  padding: 10px 10px;
+  border-radius: 6px;
+  color: rgb(84, 110, 122);
+  transition: all 0.3s;
+}
+.Function_p_link_Account:hover{
+  background: rgb(228, 230, 235);
+}
+.AddModal_padding{
+  width: 100%;
+  padding-right: 2rem;
+}
+.Adminshowhide{
+  position: absolute;
+  font-size: 23px;
+  border: none;
+  background: transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+  transform: translate(420px, 29px);
+}
+.Adminshowhide:hover{
+  color: rgb(17, 236, 229);
+}
+.DB3{
+  padding: 2rem 7rem 0;
+}
+.Profile_div::-webkit-scrollbar {
+    width: 0px;
+
+}
+.Profile_div::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+.Profile_div::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+
+}
+.AdminAccount_css_fl::-webkit-scrollbar {
+    width: 0px;
+
+}
+.AdminAccount_css_fl::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+.AdminAccount_css_fl::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+
+}
+.AdminAccount_css_sk_all_flexdds_brandfle_flo{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.AddModal_img{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+}
+.container_Addmodal img{
+  width: 100px;
+  position: absolute;
+}
+
+.container_Addmodal {
+  position: relative;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.overlay_Addmodal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  border-radius: 50%;
+}
+
+.container_Addmodal:hover .overlay_Addmodal {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.title_Addmodal {
+  position: absolute;
+  left: 36px;
+  top: 55px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+  z-index: 1;
+  transition: top .5s ease;
+  cursor: pointer;
+}
+.AddModal_span_icon{
+  font-size: 26px;
+}
+
+.container_Addmodal:hover .title_Addmodal {
+  top: 0px;
+}
+
+.button_Addmodal {
+  position: absolute;
+  width: 100px;
+  left:0;
+  top: 50%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button_Addmodala {
+  padding: 2px;
+  text-align: center;
+  color: black;
+  font-size: 26px;
+}
+
+.container_Addmodal:hover .button_Addmodal {
+  opacity: 1;
+}
+.AddModal_img_btn{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 15px;
+}
+.AddModal_img_btn button{
+  border: 1px solid rgb(228, 230, 235);
+  padding: 5px 20px;
+  cursor: pointer;
+  background: rgb(17, 236, 229, 0.9);
+  transition: all 0.3s;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.AddModal_img_btn div{
+   border: 1px solid rgb(228, 230, 235);
+  padding: 5px 20px;
+  cursor: pointer;
+  background: rgb(243, 243, 244);
+  transition: all 0.3s;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.AddModal_img_btn button:hover{
+  background: rgb(17, 236, 229);
+}
+.AddModal_img_btn div:hover{
+  background: rgb(228, 230, 235);
+}
+.AdminAccountSreacrhpos2_i_nghieng {
+  font-weight: normal;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 600px){
+  .AdminAccount_css_fl{
+  display: grid;
+  grid-template-areas: 'ADSEARCH'
+                       'ADLIST'
+                       'ADCHART'
+                       'ADADD';
+  grid-gap: 1.5em;
+  overflow-x: hidden;
+  height: 78vh;
+}
+ .Profile_div{
+  overflow-x: hidden;
+  height: 78vh;
+ }
+ .DB3{
+  padding: 2rem 2rem 0;
+}
+.AdminAccountSreacrh_soFL{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 0;
+  align-items: normal;
+  grid-gap: 15px;
+}
+.HomeDashboard_all_gridss{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.AdminAccount_css_sk_all_flexdds_list{
+  text-align: left;
+}
+.AdminList_table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(content_table);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .AdminList_table thead{
+    display: none;
+  }
+  .AdminList_table td{
+    display: block;
+    text-align: right;
+  }
+  .AdminList_table2_fl3_flex_img{
+    justify-content: flex-end;
+  }
+  .AdminList_table2_img{
+    width: 20px;
+  }
+  .AdminList_table2_fl3_icongo{
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 700px){
+  .AdminAccount_css_fl{
+  display: grid;
+  grid-template-areas: 'ADSEARCH'
+                       'ADLIST'
+                       'ADCHART'
+                       'ADADD';
+  grid-gap: 1.5em;
+  overflow-x: hidden;
+  height: 78vh;
+}
+.AdminAccountSreacrh_soFL{
+  align-items: normal;
+  grid-gap: 15px;
+}
+.AdminAccount_css_sk_all_flexdds_list{
+  text-align: left;
+}
+ .Profile_div{
+  overflow-x: hidden;
+  height: 78vh;
+ }
+ .DB3{
+  padding: 2rem 2rem 0;
+}
+.AdminAccountSreacrh_soFL{
+  flex-direction: column;
+}
+.AdminList_table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(content_table);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .AdminList_table thead{
+    display: none;
+  }
+  .AdminList_table td{
+    display: block;
+    text-align: right;
+  }
+  .AdminList_table2_fl3_flex_img{
+    justify-content: flex-end;
+  }
+  .AdminList_table2_fl3_icongo{
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .AdminAccount_css_fl{
+  display: grid;
+  grid-template-areas: 'ADSEARCH'
+                       'ADLIST'
+                       'ADCHART'
+                       'ADADD' !important;
+  grid-gap: 1.5em;
+  overflow-x: hidden;
+  height: 78vh;
+}
+.AdminAccountSreacrh_soFL{
+  align-items: normal;
+  grid-gap: 15px;
+}
+.AdminAccount_css_sk_all_flexdds_list{
+  text-align: left;
+}
+ .Profile_div{
+  overflow-x: hidden;
+  height: 78vh;
+ }
+ .DB3{
+  padding: 2rem 2rem 0;
+}
+.AdminAccountSreacrh_soFL{
+  flex-direction: column;
+}
+.AdminList_table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(content_table);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .AdminList_table thead{
+    display: none;
+  }
+  .AdminList_table td{
+    display: block;
+    text-align: right;
+  }
+  .AdminList_table2_fl3_flex_img{
+    justify-content: flex-end;
+  }
+  .AdminList_table2_fl3_icongo{
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .AdminAccount_css_fl{
+  display: grid;
+  grid-template-areas: 'ADSEARCH ADCHART'
+                       'ADLIST ADLIST' 
+                       'ADADD ADADD';
+  grid-gap: 1.5em;
+  overflow-x: hidden;
+  height: 78vh;
+}
+.AdminAccount_css_char1{
+  flex-direction: column;
+  grid-gap: 10px;
+}
+}

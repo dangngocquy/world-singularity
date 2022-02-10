@@ -1,0 +1,102 @@
+.Mobile_extra_header_menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    margin-bottom: 1rem;
+    min-width: 100%;
+    white-space: nowrap;
+    padding: 1rem 2rem;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fff;
+    backdrop-filter: blur(21px);
+    border: 0.1px solid rgb(37, 54, 78);
+    text-transform: capitalize;
+}
+.animation_extra{
+   animation: dropdown_animation .3s ease forwards;
+}
+@keyframes dropdown_animation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Mobile_extra_header_background{
+   background: #fff;
+   padding: 0.6rem 2rem;
+   color: rgb(15, 23, 36);
+   display: flex;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+   justify-content: space-between;
+}
+.search-box_news_2{
+   background: #fff !important;
+}
+.Mobile_extra_header_background_buuton_flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.Mobile_extra_header_background p{
+   margin: 0;
+   cursor: pointer;
+   display: flex;
+   font-size: 16px;
+   align-items: center;
+}
+.Mobile_extra_header_background_buuton{
+   display: flex;
+   grid-gap: 6px;
+}
+.Mobile_extra_header_menu_color{
+   font-size: 10px !important;
+   border-radius: 6px !important;
+   background: transparent;
+   border: 1px solid;
+}
+.Mobile_extra_header_menu a {
+   color: rgb(15, 23, 36);
+   line-height: 53px;
+   font-weight: normal;
+    border-bottom: 0.1px solid rgb(37, 54, 78);
+   font-size: 15px;
+   transition: all 200ms ease;
+}
+.Mobile_extra_header_menu a:hover{
+   color: rgb(17, 236, 229);
+}
+.Mobile_extra_header{
+   display: none;
+   z-index: 99;
+} 
+
+@media screen and (max-width: 1186px){
+     .Mobile_extra_header{
+      display: block;
+   }
+}
+@media screen and (max-width: 600px){
+   .Mobile_extra_header{
+      display: block;
+   }
+}
+@media screen and (max-width: 700px){
+   .Mobile_extra_header{
+      display: block;
+   }
+}
+
+/*@media screen and (max-width: 960px){}
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 700px){}
+*/

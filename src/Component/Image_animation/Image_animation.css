@@ -1,0 +1,79 @@
+@-moz-keyframes rocket-movement { 100% {-moz-transform: translate(1300px,-955px);} }
+@-webkit-keyframes rocket-movement {100% {-webkit-transform: translate(1300px,-955px); } }
+@keyframes rocket-movement { 100% {transform: translate(1300px,-655px);} }
+
+@-moz-keyframes move-astronaut {
+    100% { -moz-transform: translate(-120px, -120px);}
+}
+@-webkit-keyframes move-astronaut {
+    100% { -webkit-transform: translate(-120px, -120px);}
+}
+@keyframes move-astronaut{
+    100% { -webkit-transform: translate(-60px, -20px); transform:translate(-60px, -20px); }
+}
+
+.object_rocket{
+/*    z-index: -1;*/
+    position: absolute;
+    transform: translateX(-100px);
+    top: 100%;
+    pointer-events: none;
+    left: 0;
+    animation: rocket-movement 30s linear infinite both running;
+}
+.box_astronaut{
+    /*z-index: -2 !important;*/
+    position: absolute;
+    will-change: transform;
+    animation: move-astronaut 10s infinite linear both alternate;
+}
+.object_astronaut{
+    /*animation: chillrana 200s infinite linear both alternate;/* lên 200s sẽ xoay tròn*/
+}
+
+/*hình ảnh phi hành gia và hiệu ứng lơ lửng*/
+
+@keyframes anhsxphi {
+  from {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.lune {
+  position: absolute;
+  left: 3%;
+  height: 32vmin;
+  animation: anhsxphi 2.5s infinite ease-in-out;
+  -ms-transform: rotate(351deg);
+  transform: rotate(351deg);
+  pointer-events: none;
+  z-index: 2;
+}
+/*Mobile with < 740px*/
+@media only screen and (max-width: 46.1875em){
+    .object_rocket, .box_astronaut{
+        display: none;
+    }
+}
+/*tablet with >= 740px and width < 1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+     .box_astronaut{
+    top: 14%;
+    right: 300px;
+
+    }
+}
+/*PC with >= 1024px*/
+@media only screen and (min-width: 64em){
+    .box_astronaut{
+    top: 26%;
+    right: 30%;
+    }
+
+}

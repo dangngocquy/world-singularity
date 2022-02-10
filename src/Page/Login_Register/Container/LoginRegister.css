@@ -1,0 +1,355 @@
+.LoginRegister_backgorund{
+	background-image: url('../../../Image/Login.jpg');
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*	background: rgb(0, 0, 0, 0.1);
+	backdrop-filter: blur(21px);*/
+}
+/*.LoginRegister_Fiter{
+	background: rgb(0, 0, 0, 0.1);
+	backdrop-filter: blur(21px);
+}*/
+.LoginRegister_backgorund_div_h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 38px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	gap: 15px;
+	justify-content: flex-start;
+}
+.LoginRegister_backgorund_div_from_camara_account{
+	color: rgb(17, 236, 229);
+	background: rgb(17, 236, 229, 0.3);
+	backdrop-filter: blur(21px);
+	padding: 6px;
+	border-radius: 50%;
+}
+.LoginRegister_backgorund_div_from_camarans{
+	font-size: 26px;
+	color: rgba(27,120,222,1);
+}
+.LoginRegister_backgorund_div{
+	/*padding: 12rem 20rem 0rem;*/
+}
+.LoginRegister_backgorund_div_p{
+	color: #fff;
+	font-size: 13px;
+	line-height: 29px;
+	text-align: left;
+}
+/*.Read_news_backgrounds{
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}*/
+.Read_news_background_paddingspans{
+	color: rgb(146, 171, 207);
+}
+.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+	background: rgb(0, 0, 0, 0.1);
+	backdrop-filter: blur(21px);
+	width: 100%;
+	padding: 1.5rem 6rem;
+	border-radius: 24px;
+	max-width: 70%;
+	border: 1px solid rgb(15, 23, 36, 0.8);
+}
+.LoginRegister_backgorund_div_from{
+	display: flex;
+	flex-direction: column;
+	grid-gap: 16px;
+}
+.LoginRegister_backgorund_div_fromft{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	width: 100%;
+	/*margin-top: 6rem;*/
+}
+.Read_news_background_paddingspans_soka{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding: 8rem 6rem 2rem;
+	align-items: center;
+}
+.LoginRegister_backgorund_div_from_quen{
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+}
+.Read_news_background_padding{
+	/*padding: 0 16rem;*/
+	display: grid;
+	grid-template-areas: 'LGCAMERA LGCHIA LGGG' 
+	                     'LGXT LGCHIA LGFB';
+	align-items: center;
+	grid-row-gap: 15px;
+}
+.LG1{
+	grid-area: LGCAMERA;
+}
+.LG2{
+	grid-area: LGXT;
+}
+.LG3{
+	grid-area: LGCHIA;
+}
+.LG4{
+	grid-area: LGGG;
+}
+.LG5{
+	grid-area: LGFB;
+}
+.LoginRegister_backgorund_div_from_Login_deep{
+	padding: 15px 25px;
+	display: flex;
+	align-items: center;
+	grid-gap: 15px;
+	border-radius: 36px;
+	cursor: pointer;
+	background: rgb(17, 236, 229);
+	font-weight: bold;
+	border: none;
+	transition: all 0.3s;
+	font-size: 14px;
+	justify-content: space-between;
+	white-space: nowrap;
+}
+.LoginRegister_backgorund_div_from_camara{
+	font-size: 21px;
+}
+.Read_news_background_padding{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+	border: none;
+	display: flex;
+	color: rgb(146, 171, 207);
+	align-items: center;
+	background: rgb(15, 23, 36, 0.1);
+	grid-gap: 15px;
+	padding: 15px 25px;
+	font-weight: bold;
+	border-radius: 36px;
+	cursor: pointer;
+	border: 1px solid rgb(17, 236, 229);
+	transition: all 0.3s;
+	font-size: 13px;
+	backdrop-filter: blur(21px);
+	font-size: 14px;
+	white-space: nowrap;
+}
+.LoginRegister_backgorund_div_from_Login_deep_fb_gg:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+	box-shadow: 0 4px 8px rgb(0 0 0 / 5%);
+}
+.LoginRegister_backgorund_div_from_Login_deep:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+	box-shadow: 0 4px 8px rgb(0 0 0 / 5%);
+}
+@media screen and (max-width: 450px){
+	.Read_news_background_padding{
+	grid-template-areas: 'LGCAMERA' 
+	                     'LGGG' 
+	                     'LGFB'
+	                     'LGXT';
+	padding: 0;
+	margin-top: 1rem;
+  }
+  .LG3{
+  	display: none;
+  }
+
+	.Read_news_background_paddingspans_soka{
+		padding: 6rem 2rem 2rem !important;
+	}
+	.LoginRegister_backgorund_div_from_camara{
+		font-size: 18px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		grid-gap: 6px;
+		font-size: 12px;
+		padding: 15px 25px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		padding: 15px 25px;
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		padding: 20px 2rem;
+	}
+	.LoginRegister_backgorund_div_h1{
+		text-align: left;
+		justify-content: flex-start;
+	}
+	.LoginRegister_backgorund_div_p{
+		font-size: 11px;
+		text-align: left;
+	}
+	.Read_news_background_padding{
+		margin-bottom: 1rem;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	.Read_news_background_paddingspans_soka{
+		padding: 6rem 2rem 2rem !important;
+	}
+	.Read_news_background_padding{
+		padding: 0;
+		margin-top: 1.5rem;
+	}
+	.LoginRegister_backgorund_div_from_camara{
+		font-size: 18px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		grid-gap: 6px;
+		font-size: 12px;
+		padding: 15px 25px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		padding: 15px 25px;
+		font-size: 12px;
+	}
+	.Read_news_background_padding{
+		margin-top: 0.5rem;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		padding: 20px 2rem;
+	}
+	.LoginRegister_backgorund_div_h1{
+		text-align: left;
+		justify-content: flex-start;
+	}
+	.LoginRegister_backgorund_div_p{
+		font-size: 11px;
+		text-align: left;
+		line-height: 21px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		max-width: 100%;
+	}
+
+}
+@media screen and (max-width: 760px){
+	.Read_news_background_paddingspans_soka{
+		padding: 6rem 2rem 2rem !important;
+	}
+	.Read_news_background_padding{
+		grid-template-areas: 'LGCAMERA' 
+	                     'LGGG' 
+	                     'LGFB'
+	                     'LGXT';
+	padding: 0;
+	margin-top: 1rem;
+	}
+	.LG3{
+		display: none;
+	}
+	.LoginRegister_backgorund_div_from_camara{
+		font-size: 18px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		grid-gap: 6px;
+		font-size: 12px;
+		padding: 15px 25px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		padding: 15px 25px;
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		padding: 20px 2rem;
+	}
+	.LoginRegister_backgorund_div_h1{
+		text-align: left;
+		justify-content: flex-start;
+	}
+	.LoginRegister_backgorund_div_p{
+		font-size: 11px;
+		text-align: left;
+		line-height: 21px;
+	}
+	.Read_news_background_padding{
+		margin-bottom: 1rem;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		max-width: 100%;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		max-width: 100%;
+	}
+
+}
+@media screen and (max-width: 960px){
+	.Read_news_background_paddingspans_soka{
+		padding: 6rem 2rem 2rem!important;
+	}
+	.Read_news_background_padding{
+		padding: 0;
+	}
+	.LoginRegister_backgorund_div_from_camara{
+		font-size: 18px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		grid-gap: 6px;
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		padding: 20px;
+	}
+	.Read_news_background_padding{
+		margin-bottom: 1rem;
+	}
+}
+@media screen and (max-width: 1260px){
+	.Read_news_background_paddingspans_soka{
+		padding: 6rem 6rem 2rem;
+	}
+	.Read_news_background_padding{
+		padding: 0;
+	}
+	.LoginRegister_backgorund_div_from_camara{
+		font-size: 18px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg{
+		grid-gap: 6px;
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep{
+		font-size: 12px;
+	}
+	.LoginRegister_backgorund_div_from_Login_deep_fb_gg_padings_s{
+		padding: 20px;
+	}
+}

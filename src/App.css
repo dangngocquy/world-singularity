@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+html body{
+  margin: 0;
+
+  padding: 0;
+
+  width: 100%;
+
+  height: auto;
+
+}
+html body::-webkit-scrollbar {
+    width: 13px;
+
+}
+html body::-webkit-scrollbar-track {
+    background-color: rgb(37, 54, 78);
+
+}
+html body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgb(17, 28, 46);
+    padding: 0 2px;
+    cursor: pointer;
+
+}
+figcaption{
+  text-align: left;
+  font-size: 11px;
+
+}
+figure{
+  margin: 0;
+}
+img{
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+
+}
+a{
+  text-decoration: none;
+  transition: all 0.3s;
+  color: rgb(15, 23, 36);
+}
+
+p{
+  font-size: 18px;
+}
+i{
+  font-size: 13px;
+}
+.card-b {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+.App {
+  margin: 0 auto;
+  text-align: center;
+  font-family:"Montserrat", sans-serif;
+  color: rgb(15, 23, 36);
+  cursor: inherit;
+
+}
+
+.traiphai {
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+
+.traiphai::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.26s ease;
+}
+.traiphai:hover::before {
+  transform: scaleX(1);
+
+}
+
+.Font_text{
+ font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.App-logo {
+  height: 40vmin;
+  animation: App-logo-spin infinite 20s linear
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg);
+     }
+  to { transform: rotate(360deg);
+     }
+}

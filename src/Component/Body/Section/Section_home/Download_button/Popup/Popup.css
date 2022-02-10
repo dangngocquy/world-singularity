@@ -1,0 +1,224 @@
+/*popup download*/
+.ppdlbt {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+.mnjsdi{
+  background: rgb(17, 236, 229);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ppdlbt.is-visible {
+    visibility: visible;
+}
+.xcxvcbvbcv{
+  font-size: 13px !important;
+  text-align: center !important;
+}
+.ppdlbt-overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+.gjoob{
+  color: rgb(15, 23, 36);
+  font-weight: bold;
+}
+.ppdlbt.is-visible .ppdlbt-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.ggback{
+  background: #fff;
+  /*padding: 1.2em 3em 0.6em;*/
+  border-radius: 8px;
+  box-shadow: 0rem 1rem 2rem -0.25rem rgb(0 0 0 / 25%);
+}
+.popup_felex_dif{
+  padding: 1.5em;
+  border-bottom: 1px solid rgb(15, 23, 36);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.ppdlbt-wrapper {
+  position: relative;
+  z-index: 999;
+  top: 6em;
+  border: 1px solid #fff;
+  background: rgb(0, 0, 0, 0.1);
+  backdrop-filter: blur(21px);
+  box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+}
+.c-connaks__description {
+  font-size: 13px;
+  text-transform: none;
+  color: rgb(15, 23, 36)!important;
+}
+.xcxvcbvbcv{
+    color: rgb(15, 23, 36)!important;
+}
+.popup_felex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ppdlbt-transition {
+  transition: all 0.3s 0.12s;
+  transform: translateY(-10%);
+  opacity: 0;
+}
+
+.ppdlbt.is-visible .ppdlbt-transition {
+  transform: translateY(0);
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.ppdlbt-content {
+  padding: 0.2em 0.2em 0.2em;
+}
+
+
+.c-connaks__title {
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: none;
+  margin-bottom: 6px;
+  font-weight: 6ormal;
+}
+
+.ppdlbt-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: #aaa;
+  background: none;
+  border: 0;
+}
+
+.ppdlbt-close:hover {
+  color: #777;
+}
+
+.ppdlbt-heading {
+  font-size: 1.125em;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+.Qr_code_flex{
+  padding: 1.2em 3em;
+}
+/*nút button đăng ký và đăng nhập*/
+.btn {
+  cursor: pointer;
+  padding: 15px 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.dgblll{
+  color: #e1faff;
+}
+.dgblllh{
+  text-align: center;
+}
+.btn-6 {
+  color: white;
+  background: green;
+  -webkit-transition: none;
+  opacity: 0.8;
+}
+
+.btn-6b {
+  border: 2px solid green;
+  border-radius: 15px;
+}
+
+.btn-6b:hover {
+  background: transparent;
+  color: white;
+}
+
+/*kết thúc nút*/
+@media screen and (max-width: 700px){
+  .cuasodownload-content {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 235px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 70%;
+}
+/* Đóng popup Button */
+.dongdownload {
+  position: absolute;
+  color: black;
+  float: left;
+  top: 2.2em;
+  margin-left: 5em;
+  font-size: 40px;
+  font-weight: bold;
+}
+}
+@media screen and (max-width: 600px){
+  .cuasodownload-content {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 235px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 70%;
+}
+/* Đóng popup Button */
+.dongdownload {
+  position: absolute;
+  color: black;
+  float: left;
+  top: 2.2em;
+  margin-left: 5em;
+  font-size: 40px;
+  font-weight: bold;
+}
+}
+
+@media screen and (max-width: 960px){
+  .cuasodownload-content {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 235px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 70%;
+}
+/* Đóng popup Button */
+.dongdownload {
+  position: absolute;
+  color: black;
+  float: left;
+  top: 2.2em;
+  margin-left: 5em;
+  font-size: 40px;
+  font-weight: bold;
+}
+}
+

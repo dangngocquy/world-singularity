@@ -1,0 +1,174 @@
+.err_background{
+	background: url(../../Image/Background/univ.jpg) center no-repeat;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.err_text{
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	line-height: 1.22em;
+	letter-spacing: normal;
+	margin: -50px auto 0px;
+	color: rgb(146, 171, 207);
+	text-transform: uppercase;
+}
+
+.err_background_header{
+	background: rgb(15, 23, 36);
+  padding: 10px 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.Error404notfound{
+	background: rgb(146, 171, 207);
+	width: 3px;
+	height: 15vh;
+	border-radius: 8px;
+}
+.Error404notfound_fl_span1 h1{
+	color: rgb(146, 171, 207);
+	font-weight: normal;
+	margin: 0;
+}
+.Error404notfound_fl_span2 b{
+	color: rgb(146, 171, 207);
+	font-weight: normal;
+	font-size: 13px;
+}
+.Error404notfound_fl_span2 p{
+	color: rgb(146, 171, 207);
+	margin: 0;
+	font-size: 12px;
+}
+.Error404notfound_fl_span2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.Error404notfound_fl_span1_button{
+	color: rgb(146, 171, 207);
+	background: rgb(146, 171, 207, 0.1);
+	backdrop-filter: blur(21px);
+	cursor: pointer;
+	border: 2px solid rgb(146, 171, 207, 0.1);
+	border-radius: 24px;
+	padding: 10px 20px;
+	transition: all 0.3s;
+}
+.Error404notfound_fl_span1_button:hover{
+	color: rgb(17,236,229);
+	border: 2px solid rgb(17,236,229);
+}
+.Error404notfound_fl_span1{
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.Error404notfound_fl_span2dls{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.Error404notfound_fl_span2{
+	display: flex;
+	gap: 0.5rem;
+	flex-direction: column;
+}
+.Error404notfound_fl{
+	display: flex;
+	flex-direction: row;
+	grid-gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	padding: 4rem 6rem 0;
+}
+.err_flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 50px;
+	padding: 40px 0 4px;
+}
+.err_button{
+	font-size: 20px;
+	width: 239px;
+	line-height: 20px;
+	letter-spacing: normal;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 8px;
+	cursor: pointer;
+	border: 2px solid rgb(146, 171, 207,.1);
+	backdrop-filter: blur(21px);
+	background: rgb(146, 171, 207,.1);
+	transition: all 0.4s ease 0s;
+}
+.err_button:hover{
+	background: rgb(15, 23, 36);
+	border: 2px solid rgb(14, 233, 215);
+}
+.Error_404_not_found_img{
+	width: auto;
+	object-fit: cover;
+}
+.err_link{
+	color: rgb(14, 233, 215);
+}
+.Error404notfound_fl_span2 p{
+	text-align: left;
+}
+.err_text2{
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	line-height: 1.22em;
+	letter-spacing: 1.22;
+	color: rgb(146, 171, 207);
+	margin: 0 auto;
+	padding: 10px;
+}
+.err_text3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	line-height: 1.22em;
+	margin: 0 auto;
+	padding: 0;
+	top: 12px;
+}
+
+@media screen and (max-width: 700px) {
+	.err_button{
+		font-size: 13px;
+		width: 140px;
+		padding: 10px 0;
+	}
+	.err_text{
+		font-size: 21px;
+		margin-top: 0.1rem;
+	}
+	.Error_404_not_found_img{
+		width: 100%;
+	}
+	.err_text2{
+		font-size: 15px;
+	}
+	.Error404notfound_fl_lang{
+		display: none;
+	}
+	.Error404notfound_fl{
+		padding: 4rem 2rem;
+	}
+	.err_background_padding{
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-bottom: 4rem;
+	}
+}
+@media screen and (max-width: 1050px) {}
