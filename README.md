@@ -5,7 +5,7 @@
 
 # Đang phát triển
 
-# Langding Page
+# Landing Page
 
 ![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/HomePage.png)
 
