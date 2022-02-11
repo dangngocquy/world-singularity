@@ -1,4 +1,4 @@
-# Huấn Luyện AI WEB-APP-FONT-END
+# Huấn Luyện AI WEB-APP-FONTEND
   Đang phát triển
 
 # Langding Page
