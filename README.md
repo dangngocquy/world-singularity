@@ -1,5 +1,6 @@
 # Huấn Luyện AI WEB-APP-FRONTEND
-  Đang phát triển
+  ...Đang phát triển...
+ 1. Reponsive: Tablet Mobile
 
 # Langding Page
 
