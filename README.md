@@ -2,7 +2,7 @@
 1. Reponsive: Tablet Mobile
 2. Run Database: json-server --watch Admin.json --port 3001
 3. npm install, npm start
-4. 
+
 # Đang phát triển
 
 # Langding Page
