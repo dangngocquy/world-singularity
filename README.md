@@ -1,5 +1,5 @@
 # Huấn Luyện AI WEB-APP-FRONTEND
-1. Reponsive: Tablet Mobile
+1. Reponsive: PC, Tablet, Mobile
 2. Run Database: json-server --watch Admin.json --port 3001
 3. npm install, npm start
 
