@@ -5,18 +5,6 @@
 
 # Đang phát triển
 
-# Landing Page
-
-![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/HomePage.png)
-
-# Login Page
-
-![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/Login.png)
-
-# Support Page
-
-![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/Hotro.png)
-
 # Home Blog News
 
 ![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/NewsHome.png)
@@ -52,3 +40,12 @@
 # Dashboard List Admin
 
 ![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/DBLIST.png)
+
+# Landing Page
+
+![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/HomePage.png)
+
+# Support Page
+
+![alt text](https://github.com/hongdethat/world-singularity-font-end-app/blob/image/Hotro.png)
+
